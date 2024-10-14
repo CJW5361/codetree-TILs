@@ -6,7 +6,8 @@ int main() {
     double a;
 
     cin >> a;
-
-    cout << a+1.5 << endl;
+    cout << fixed;
+    cout.precision(2);
+    cout << a+1.5;
     return 0;
 }
